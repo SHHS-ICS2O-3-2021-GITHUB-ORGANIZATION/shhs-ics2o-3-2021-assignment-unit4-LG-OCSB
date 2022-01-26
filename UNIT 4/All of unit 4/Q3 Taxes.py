@@ -50,3 +50,4 @@ total = Sum_of_items + tax
 print("\nthe sum of all your items is: $" + str(Sum_of_items))
 print("\nthe tax on your items is: $" + str(tax))
 print("\nthe total cost of your 10 items is: $" + str(total)) 
+#this one is all mine

@@ -42,10 +42,10 @@ while True:
      clock.tick(45)
 ##########################
  for i in range (260):
-     # Make white background
-     gameDisplay.fill(Color('white'))
+     # Make green background
+     gameDisplay.fill(Color('green'))
      # Draw a ball
-     draw.circle(gameDisplay, Color('yellow'), (x, y), 30)
+     draw.circle(gameDisplay, Color('purple'), (x, y), 30)
      # Show graphics on screen
      display.flip()
      # change location of center a little bit!!!
@@ -55,7 +55,7 @@ while True:
 ##########################
  for i in range(260):
      # Make white background
-     gameDisplay.fill(Color('white'))
+     gameDisplay.fill(Color('blue'))
      # Draw a ball
      draw.circle(gameDisplay, Color('red'), (x, y), 30)
      # Show graphics on screen
