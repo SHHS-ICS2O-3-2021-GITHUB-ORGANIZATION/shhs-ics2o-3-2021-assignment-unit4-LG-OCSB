@@ -4,24 +4,12 @@
 # PURPOSE OF PROGRAM: calculates average of numbers given by user
 
 # VARIABLE DEFINITION 
-addedSum = (0)
-Average = (0) 
-counter = (0)
-
-
-# INPUT
-nonZeroNumb = float(input("Enter your numbers (when ready type 0 to Exit): ")) #reciving the numbers to calculate
-
-# PROCESSING
-while nonZeroNumb != 0:  # the program counts the amount of numbers added
-    addedSum = addedSum + nonZeroNumb
-    nonZeroNumb = float(input())
-    counter = counter + 1
-
-addedSum = addedSum + nonZeroNumb #adds all numbers togeather to get sum 
-Average = addedSum/counter #calculates  average
-
-
-# OUTPUT 
-print ("Total sum of entered number is", addedSum) #prints the sum of all numbers entered
-print("Total average of entered number is", Average)
+import numpy as np 
+ #this asks for input of numbers
+num1 = int(input("Enter the Number 1: ")) 
+num2 = int(input("Enter the Number 2: ")) 
+num3 = int(input("Enter the Number 3: ")) 
+#calculating average
+average = (np.sum([num1, num2, num3])) / 3 
+#output/answer
+print(int(average)) 
